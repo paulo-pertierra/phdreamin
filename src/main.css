@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(https://db.onlinewebfonts.com/c/e8ff4499511e490eb1519814302514c5?family=Inter);
+
+body {
+  font-family: 'Inter';
+}
