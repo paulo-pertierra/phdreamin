@@ -1,5 +1,5 @@
 <script setup>
-import { reactive, ref, watch } from "vue";
+import { reactive, ref } from "vue";
 import { useAPIEndpoint } from "../composables/server.connection"
 import { useRouter } from "vue-router";
 

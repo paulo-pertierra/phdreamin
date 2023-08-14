@@ -8,7 +8,14 @@ import { initFlowbite } from 'flowbite'
 onMounted(() => {
   initFlowbite()
 })
+window.onload = function () {
+  var preloader = document.getElementById('preloader')
+  var loader = document.getElementById('loader')
 
+  loader.classList.remove('animate')
+
+  preloader.remove()
+}
 </script>
 
 <template>
